@@ -13,7 +13,7 @@
 
                 }else{
                     $this->text_debug("database Connect");
-                }
+                } 
             }
             public function query($sql){
                 $result->db->query($sql);
